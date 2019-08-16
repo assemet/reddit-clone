@@ -10,6 +10,10 @@ gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'rb-readline', '~> 0.5.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'acts_as_votable', '~> 0.12.0'
+gem 'simple_form'
+#so that we can use the 'div_for' method
+gem 'record_tag_helper', '~> 1.0'
+
 
 gem 'sqlite3'
 # Use Puma as the app server
