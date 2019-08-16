@@ -6,6 +6,8 @@ ruby '2.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
+gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'rb-readline', '~> 0.5.5'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
